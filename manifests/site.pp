@@ -10,6 +10,6 @@ node /^web/ {
   include role::app_server
 }
 
-node /^db/ {
+node 'db.puppet.vm' {
   include role::db_server
 }
